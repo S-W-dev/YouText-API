@@ -1,0 +1,16 @@
+{
+  "name": "node-youtext",
+  "version": "1.0.3",
+  "description": "The YouText API for NodeJS allows you to send and receive messages using your phone number.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ConcreteGames LLC",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.0",
+    "user": "0.0.0"
+  }
+}
