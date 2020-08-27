@@ -16,7 +16,7 @@ Step 3 • Use the following code to get started:<br>
 
 ```JavaScript
 // Setup your new instance with an API_KEY and CLIENT_SECRET (you can have multiple instances running with different API_KEYs and CLIENT_SECRETs)
-var yt = new YouText(<your API_KEY>, <your CLIENT_SECRET>);
+var yt = new YouText(API_KEY, CLIENT_SECRET);
 
 // Connect to our servers
 yt.Connect(); // you can use the following optional parameters in order: message_receivced_callback (by default console logs the message), server (by default is ours), connect_callback (by default gives a connection message), disconnect_callback (by default reloads the page)
@@ -26,7 +26,7 @@ yt.Verify() // optional parameters: api_key (by default is the one you specified
 // or
 yt.Authenticate() // optional parameters: api_key (by default is the one you specified above)
 
-yt.SendMessage(<your message>, <your recipient(s)>) // use a string for a single recipient, use an array for multiple reciptients
+yt.SendMessage(message, recipient/s); // use a string for a single recipient, use an array for multiple reciptients
 
 //to disconnect (not required)
 yt.socket.disconnect()
