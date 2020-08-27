@@ -22,9 +22,9 @@ var yt = new YouText(API_KEY, CLIENT_SECRET);
 yt.Connect(); // you can use the following optional parameters in order: message_receivced_callback (by default console logs the message), server (by default is ours), connect_callback (by default gives a connection message), disconnect_callback (by default reloads the page)
 
 // Verify/Authenticate with our servers, both functions serve the same purpose.
-yt.Verify() // optional parameters: api_key (by default is the one you specified above)
+yt.Verify() // optional parameters: api_key, client_secret (by default are the ones you specified above)
 // or
-yt.Authenticate() // optional parameters: api_key (by default is the one you specified above)
+yt.Authenticate() // optional parameters: api_key, client_secret (by default are the ones you specified above)
 
 yt.SendMessage(message, recipient/s); // use a string for a single recipient, use an array for multiple reciptients
 
