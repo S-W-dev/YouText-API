@@ -1,6 +1,6 @@
 {
   "name": "node-youtext",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "The YouText API for NodeJS allows you to send and receive messages using your phone number.",
   "main": "index.js",
   "scripts": {

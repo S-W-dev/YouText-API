@@ -1,5 +1,5 @@
 // Create a new YouText instance 
-//var yt = new YouText('y0-006-mzqz-ggw2p', '3pexaqvbnx90ddxyp3by7i4xj7lt');
+//var yt = new YouText(api_key, client_Secret);
 
 // Connect to the servers
 //yt.Connect();

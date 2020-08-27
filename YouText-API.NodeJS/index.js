@@ -100,4 +100,4 @@ class YouText {
     }
 }
 
-exports.YouText = YouText;
+module.exports = YouText;
