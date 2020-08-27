@@ -43,7 +43,7 @@ class YouText {
         console.log("[YouText]: Successfully connected to server.");
     }, disconnect_callback = () => {
         console.log();
-        window.location.reload();
+        //window.location.reload();
     }) {
 
         this.socket = io.connect(server);
